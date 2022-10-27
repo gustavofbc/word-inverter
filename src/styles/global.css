@@ -1,0 +1,104 @@
+:root {
+    --purple: #5D5FEF;
+    --black: #1F2729;
+    --white: #F4FEFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--purple);
+}
+
+input, p, button {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+    max-width: 450px;
+    padding: 1rem;
+}
+
+img {
+    max-width: 15rem;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    max-width: 540px;
+    font-size: 1.2rem;
+
+    padding: 1rem;
+    border: 3px solid var(--black);
+    border-radius: .5rem;
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    width: 7.2rem;
+    height: 3.6rem;
+    font-size: 1.2rem;
+
+    margin: 1.4rem 0;
+    color: var(--white);
+    background: var(--black);
+    font-weight: 600;
+
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 3.6rem;
+
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    
+    color: var(--white);
+    background: var(--black);
+    border-radius: .5rem;
+    border: 3px solid var(--white);
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+}
