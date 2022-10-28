@@ -32,7 +32,7 @@ O projeto em questão é um dos desafios de codificação para a vaga de estági
 
 
 <p align="center">
-  <img alt="Interface" src="https://github.com/gustavofbc/bin2dec/blob/main/src/assets/word-inverter-interface.png"/>
+  <img alt="Interface" src="https://github.com/gustavofbc/word-inverter/blob/main/src/assets/word-inverter-interface.png"/>
 </p>
 
 
