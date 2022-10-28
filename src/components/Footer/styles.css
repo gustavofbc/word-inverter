@@ -1,0 +1,25 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--white);
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.icon {
+    margin: .25rem;
+}
+
+.author {
+    margin-left: .25rem;
+    color: var(--black);
+    transition: .3s;
+}
+
+.author:hover {
+    color: var(--white);
+}
