@@ -14,11 +14,6 @@
 ### :bulb: Ideia
 O projeto em questão é um dos desafios de codificação para a vaga de estágio em desenvolvimento frontend na Ally Hub.
 
-## Bonus features
-
--   [x] User can enter a variable number of binary digits
-
-
 <h4> Tecnologias utilizadas no projeto:</h4>
 
 <p align="center">
